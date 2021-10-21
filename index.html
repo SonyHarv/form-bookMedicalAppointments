@@ -8,6 +8,99 @@
   <title>Reserva tu cita</title>
 </head>
 <body>
-  <h1>Hola Mundo!!!</h1>
+  <header class="header">
+      <a href="#">Ir a la pagina principal</a>
+      <img src="http://sistemas.mydent.pe/reservas/resources/imagenes/logoMYDENTSinFondo.png" width="300" height="200" alt="Logo Mydent" title="Logo Mydent">
+  </header>
+    <main class="main">
+      <div class="wrapper">
+        <h1>Reserva tu cita en línea. Fácil y rápido</h1>
+        <form action="#" class="form">
+          <div class="wrapper-form1">
+            <div class="form-mydent">
+              <label for="select">Escoge tu Tipo de Documento*</label>
+              <select id="select" name="select">
+                <option value="value1" selected>DNI</option>
+                <option value="value2">CARNE DE EXTRANJERIA</option>
+              </select>
+            </div>
+            <div class="form-mydent">
+              <label for="name">Cuales son tus nombres*</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-mydent">
+              <label for="name">Indica tu celular*</label>
+              <input type="tel" name="name" id="name" required>
+            </div>
+            <div class="form-mydent">
+              <p>Selecciona fecha y hora de atención*</p>
+              <section class="calendar">
+                <h1>Calendario</h1>
+              </section>
+            </div>
+          </div>
+          <!-- columna 2 -->
+          <div class="wrapper-form2">
+            <div class="form-mydent">
+              <label for="name">Cual es tu número de documento*</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-mydent">
+              <label for="name">Cuales son tus apellidos*</label>
+              <input type="text" name="name" id="name" required>
+            </div>
+            <div class="form-mydent">
+              <label for="selectSede">Escoge tu sede*</label>
+              <select id="selectSede" class="selectSedeOptions" name="selectSede">
+                <option value="value1" selected>SEDE ATE - PURUCHUCO</option>
+                <option value="value2">SEDE CHICLAYO - PIMENTEL</option>
+                <option value="value2">SEDE EL RIMAC - PIEDRA LIZA</option>
+                <option value="value2">SEDE JESUS MARIA - LA BRASIL</option>
+                <option value="value2">SEDE JESUS MARIA - MARIATEGUI</option>
+                <option value="value2">SEDE LOS OLIVOS - CARLOS IZAGUIRRE</option>
+                <option value="value2">SEDE SAN JUAN LURIGANCHO - LAS FLORES</option>
+                <option value="value2">SEDE SAN MIGUEL - UCAYALI</option>
+                <option value="value2">SEDE SURCO - SAN ANTONIO</option>
+              </select>
+            </div>
+            <!-- <div class="form-mydent">
+              <label for="name">Indica tu sede (*)</label>
+              <section class="sedes">
+                <input type="search" name="name" id="name" required>
+                <p>SEDE ATE - PURUCHUCO</p>
+                <p>SEDE CHICLAYO - PIMENTEL</p>
+                <p>SEDE EL RIMAC - PIEDRA LIZA</p>
+                <p>SEDE JESUS MARIA - LA BRASIL</p>
+                <p>SEDE JESUS MARIA - MARIATEGUI</p>
+                <p>SEDE LOS OLIVOS - CARLOS IZAGUIRRE</p>
+                <p>SEDE SAN JUAN LURIGANCHO - LAS FLORES</p>
+                <p>SEDE SAN MIGUEL - UCAYALI</p>
+                <p>SEDE SURCO - SAN ANTONIO</p>
+              </section>
+            </div> -->
+            <div class="form-mydent">
+              <p>Selecciona un horario disponible Horas disponibles para 21/10/2021*</p>
+              <section class="turnos">
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+                <button class="time" aria-label="time" title="time">08:00</button>
+              </section>
+            </div>
+          </div>
+          <div class="form-mydent">
+            <input type="submit" value="Reservar Cita">
+          </div>
+        </form>
+      </div>
+    </main>
 </body>
 </html>
