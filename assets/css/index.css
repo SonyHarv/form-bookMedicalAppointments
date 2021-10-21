@@ -1,3 +1,81 @@
+body {
+  background-color: #00a1df;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+}
+
+.header {
+  margin: auto;
+  max-inline-size: 1200px;
+}
+.wrapper {
+  margin: auto;
+  max-inline-size: 1200px;
+  border: 1px solid red;
+  padding: 1rem;
+}
+.header img {
+  display: block;
+  margin: auto;
+  border: 1px solid red;
+}
+.form-mydent {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
 h1 {
-  color: red;
+  font-size: 3rem;
+}
+
+input {
+  display: block;
+  border-radius: 10px;
+  font-size: 1.5rem;
+}
+select {
+  display: block;
+  border-radius: 12px;
+  font-size: 1.5rem;
+}
+select option {
+  border-radius: 12px;
+}
+
+label {
+  display: block;
+  margin-block-end: 1rem;
+}
+.form {
+  display: grid;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: auto auto 20px;
+}
+.form-mydent1 {
+  grid-column: 1/2;
+}
+.form-mydent2 {
+  grid-column: 2/3;
+}
+.form-mydent {
+  grid-row: 2/3;
+}
+.selectSedeOptions {
+  inline-size: 350px;
+}
+
+@media screen and (max-width: 1236px) {
+  .form {
+    grid-template-columns: 500px 500px;
+  }
+}
+@media screen and (max-width: 1020px) {
+  .form {
+    grid-template-columns: 400px 400px;
+  }
+}
+@media screen and (max-width: 825px) {
+  .form {
+    display: inline-block;
+  }
 }
