@@ -1,0 +1,7 @@
+.wrapper {
+  margin: auto;
+  max-inline-size: 1200px;
+  /* border: 1px solid red; */
+  padding-inline-start: 3rem;
+  padding-inline-end: 1rem;
+}
