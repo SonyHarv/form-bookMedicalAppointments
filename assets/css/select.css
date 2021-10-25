@@ -1,0 +1,31 @@
+select {
+  display: block;
+  /* border-radius: 1rem; */
+  font: var(--headline1);
+  /* padding: 1rem; */
+  inline-size: 90%;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  outline: none;
+  border: 0;
+  color: white;
+  background: #00b8e4;
+  padding-block-start: 12px;
+  padding-block-end: 12px;
+  padding-inline: 10px;
+  opacity: 1;
+  height: 50px;
+  cursor: pointer;
+}
+/* select option {
+  border: 19px solid red;
+  border-radius: 2rem;
+  inline-size: 85%;
+  background-color: black;
+} */
+/* .selectSedeOptions {
+  inline-size: 85%;
+}
+ */
