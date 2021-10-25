@@ -1,0 +1,8 @@
+label {
+  display: block;
+  margin-block-end: 1rem;
+  inline-size: 100%;
+}
+span {
+  color: red;
+}
