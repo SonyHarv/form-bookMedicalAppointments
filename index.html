@@ -5,12 +5,13 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="assets/css/index.css">
+  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
   <title>Reserva tu cita</title>
 </head>
 <body>
   <header class="header">
-      <a href="#">Ir a la pagina principal</a>
-      <img src="http://sistemas.mydent.pe/reservas/resources/imagenes/logoMYDENTSinFondo.png" width="300" height="200" alt="Logo Mydent" title="Logo Mydent">
+      <a href="#"><i class="uil uil-house-user"></i> Ir a la pagina principal</a>
+      <img src="http://sistemas.mydent.pe/reservas/resources/imagenes/logoMYDENTSinFondo.png" alt="Logo Mydent" title="Logo Mydent">
   </header>
     <main class="main">
       <div class="wrapper">
@@ -18,39 +19,33 @@
         <form action="#" class="form">
           <div class="wrapper-form1">
             <div class="form-mydent">
-              <label for="select">Escoge tu Tipo de Documento*</label>
+              <label for="select">Escoge tu Tipo de Documento <span>*</span></label>
               <select id="select" name="select">
                 <option value="value1" selected>DNI</option>
                 <option value="value2">CARNE DE EXTRANJERIA</option>
               </select>
             </div>
             <div class="form-mydent">
-              <label for="name">Cuales son tus nombres*</label>
+              <label for="name">Cuales son tus nombres <span>*</span></label>
               <input type="text" name="name" id="name" required>
             </div>
             <div class="form-mydent">
-              <label for="name">Indica tu celular*</label>
+              <label for="name">Indica tu celular <span>*</span></label>
               <input type="tel" name="name" id="name" required>
-            </div>
-            <div class="form-mydent">
-              <p>Selecciona fecha y hora de atención*</p>
-              <section class="calendar">
-                <h1>Calendario</h1>
-              </section>
             </div>
           </div>
           <!-- columna 2 -->
           <div class="wrapper-form2">
             <div class="form-mydent">
-              <label for="name">Cual es tu número de documento*</label>
+              <label for="name">Cual es tu número de documento <span>*</span></label>
               <input type="text" name="name" id="name" required>
             </div>
             <div class="form-mydent">
-              <label for="name">Cuales son tus apellidos*</label>
+              <label for="name">Cuales son tus apellidos <span>*</span></label>
               <input type="text" name="name" id="name" required>
             </div>
             <div class="form-mydent">
-              <label for="selectSede">Escoge tu sede*</label>
+              <label for="selectSede">Escoge tu sede <span>*</span></label>
               <select id="selectSede" class="selectSedeOptions" name="selectSede">
                 <option value="value1" selected>SEDE ATE - PURUCHUCO</option>
                 <option value="value2">SEDE CHICLAYO - PIMENTEL</option>
@@ -63,23 +58,16 @@
                 <option value="value2">SEDE SURCO - SAN ANTONIO</option>
               </select>
             </div>
-            <!-- <div class="form-mydent">
-              <label for="name">Indica tu sede (*)</label>
-              <section class="sedes">
-                <input type="search" name="name" id="name" required>
-                <p>SEDE ATE - PURUCHUCO</p>
-                <p>SEDE CHICLAYO - PIMENTEL</p>
-                <p>SEDE EL RIMAC - PIEDRA LIZA</p>
-                <p>SEDE JESUS MARIA - LA BRASIL</p>
-                <p>SEDE JESUS MARIA - MARIATEGUI</p>
-                <p>SEDE LOS OLIVOS - CARLOS IZAGUIRRE</p>
-                <p>SEDE SAN JUAN LURIGANCHO - LAS FLORES</p>
-                <p>SEDE SAN MIGUEL - UCAYALI</p>
-                <p>SEDE SURCO - SAN ANTONIO</p>
-              </section>
-            </div> -->
+          </div>
+          <div class="form-mydent3">
             <div class="form-mydent">
-              <p>Selecciona un horario disponible Horas disponibles para 21/10/2021*</p>
+              <p>Selecciona fecha y hora de atención <span>*</span></p>
+              <!-- <section class="calendar">
+                <h1>Calendario</h1>
+              </section> -->
+            </div>
+            <div class="form-mydent">
+              <!-- <p>Selecciona un horario disponible Horas disponibles para 21/10/2021<span>*</span></p> -->
               <section class="turnos">
                 <button class="time" aria-label="time" title="time">08:00</button>
                 <button class="time" aria-label="time" title="time">08:00</button>
@@ -96,7 +84,7 @@
               </section>
             </div>
           </div>
-          <div class="form-mydent">
+          <div class="form-mydent4">
             <input type="submit" value="Reservar Cita">
           </div>
         </form>
